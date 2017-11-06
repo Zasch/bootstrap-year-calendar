@@ -97,7 +97,7 @@
 		},
 		_renderHeader: function() {
 			var header = $(document.createElement('div'));
-			header.addClass('calendar-header panel panel-default');
+			header.addClass('calendar-header card');
 			
 			var headerTable = $(document.createElement('table'));
 			
@@ -181,10 +181,14 @@
 		},
 		_renderBody: function() {
 			var monthsDiv = $(document.createElement('div'));
-			monthsDiv.addClass('months-container');
-			
-			for(var m = 0; m < 12; m++) {
-				/* Container */
+			monthsDiv.addClass('months-container container-fluid');
+
+			var rowDiv = $(document.createElement('div'));
+            rowDiv.addClass('row');
+
+            for(var m = 0; m < 12; m++) {
+                /* Container */
+
 				var monthDiv = $(document.createElement('div'));
 				monthDiv.addClass('month-container');
 				monthDiv.data('month-id', m);
@@ -300,10 +304,11 @@
 				
 				monthDiv.append(table);
 				
-				monthsDiv.append(monthDiv);
+				rowDiv.append(monthDiv);
 			}
-			
-			this.element.append(monthsDiv);
+
+            monthsDiv.append(rowDiv);
+            this.element.append(monthsDiv);
 		},
 		_renderDataSource: function() {
 			var _this = this;
@@ -618,19 +623,19 @@
 				var monthContainerClass = 'month-container';
 				
 				if(monthSize * 6 < calendarSize) {
-					monthContainerClass += ' col-xs-2';
+					monthContainerClass += ' col-2';
 				}
 				else if(monthSize * 4 < calendarSize) {
-					monthContainerClass += ' col-xs-3';
+					monthContainerClass += ' col-3';
 				}
 				else if(monthSize * 3 < calendarSize) {
-					monthContainerClass += ' col-xs-4';
+					monthContainerClass += ' col-4';
 				}
 				else if(monthSize * 2 < calendarSize) {
-					monthContainerClass += ' col-xs-6';
+					monthContainerClass += ' col-6';
 				}
 				else {
-					monthContainerClass += ' col-xs-12';
+					monthContainerClass += ' col-12';
 				}
 				
 				$(_this.element).find('.month-container').attr('class', monthContainerClass);
@@ -638,8 +643,8 @@
 		},
 		_refreshRange: function () {
 			var _this = this;
-		
-            this.element.find('td.day.range').removeClass('range')
+
+            this.element.find('td.day.range').removeClass('range');
             this.element.find('td.day.range-start').removeClass('range-start');
             this.element.find('td.day.range-end').removeClass('range-end');
 

@@ -14,15 +14,18 @@
     "calendar",
     "bootstrap"
   ],
-  "author": "Zasch",
+  "author": "Sascha Müller",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Zasch/bootstrap-year-calendar/issues"
   },
-  "homepage": "http://www.none.yet/",
+  "homepage": "http://www.sascha-mueller.net/",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",
     "font-awesome": "^4.7.0"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.hagos.de:8443/repository/npm_private/"
   }
 }
