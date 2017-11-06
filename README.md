@@ -1,6 +1,6 @@
-# bootstrap-year-calendar
-A fully customizable year calendar widget, for boostrap !
-You can find all details on the [official website](http://www.bootstrap-year-calendar.com/).
+# bootstrap4-year-calendar
+A fully customizable year calendar widget, for boostrap 4!
+You can find all details on [github](https://github.com/Zasch/bootstrap-year-calendar).
 
 
 ![alt tag](http://www.bootstrap-year-calendar.com/img/calendar.png)
@@ -8,14 +8,14 @@ You can find all details on the [official website](http://www.bootstrap-year-cal
 ## Requirements
 
 This plugin requires the following libraries :
-- Bootstrap v3.0.0 or later
-- jQuery v1.8.0 or later
+- Bootstrap v4.0.0-beta2 or later
+- jQuery v3.3.0 or later
+- font-awesome 4.7.0 or later
 
 ## Installation
 You can get the widget using the following methods:
-- From the [GitHub repository](https://github.com/Paul-DS/bootstrap-year-calendar/releases) or the [official website](http://www.bootstrap-year-calendar.com/#Download).
-- From the Node package manager, using the following command: `npm install bootstrap-year-calendar`
-- From Bower, using the following command: `bower install bootstrap-year-calendar`
+- From the [GitHub repository](https://github.com/Zasch/bootstrap-year-calendar/releases)
+- From the Node package manager, using the following command: `npm install bootstrap4-year-calendar`
 
 ## Usage
 
