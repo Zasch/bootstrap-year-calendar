@@ -108,8 +108,8 @@
 				prevDiv.addClass('disabled');
 			}
 			
-			var prevIcon = $(document.createElement('span'));
-			prevIcon.addClass('glyphicon glyphicon-chevron-left');
+			var prevIcon = $(document.createElement('i'));
+			prevIcon.addClass('fa fa-chevron-left');
 			
 			prevDiv.append(prevIcon);
 			
@@ -168,8 +168,8 @@
 				nextDiv.addClass('disabled');
 			}
 			
-			var nextIcon = $(document.createElement('span'));
-			nextIcon.addClass('glyphicon glyphicon-chevron-right');
+			var nextIcon = $(document.createElement('i'));
+			nextIcon.addClass('fa fa-chevron-right');
 			
 			nextDiv.append(nextIcon);
 			
@@ -697,8 +697,8 @@
 				
 				eventItem.append(eventItemContent);
 				
-				var icon = $(document.createElement('span'));
-				icon.addClass('glyphicon glyphicon-chevron-right');
+				var icon = $(document.createElement('i'));
+				icon.addClass('fa fa-chevron-right');
 				
 				eventItem.append(icon);
 				
@@ -741,8 +741,8 @@
 						})(i);
 					}
 					
-					var icon = $(document.createElement('span'));
-					icon.addClass('glyphicon glyphicon-chevron-right');
+					var icon = $(document.createElement('i'));
+					icon.addClass('fa fa-chevron-right');
 					
 					menuItem.append(icon);
 					

@@ -1,27 +1,28 @@
 {
-  "name": "bootstrap-year-calendar",
-  "version": "1.1.1",
-  "description": "A fully customizable year calendar widget, for boostrap !",
+  "name": "bootstrap4-year-calendar",
+  "version": "1.0.0",
+  "description": "A fully customizable year calendar widget, for boostrap 4!",
   "main": "./js/bootstrap-year-calendar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Paul-DS/bootstrap-year-calendar.git"
+    "url": "git@github.com:Zasch/bootstrap-year-calendar.git"
   },
   "keywords": [
     "calendar",
     "bootstrap"
   ],
-  "author": "Paul-DS",
+  "author": "Zasch",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Paul-DS/bootstrap-year-calendar/issues"
+    "url": "https://github.com/Zasch/bootstrap-year-calendar/issues"
   },
-  "homepage": "http://www.bootstrap-year-calendar.com/",
+  "homepage": "http://www.none.yet/",
   "dependencies": {
-    "bootstrap": ">=3.1.1",
-    "jquery": ">=1.8.2"
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
   }
 }
